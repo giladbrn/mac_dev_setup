@@ -1,0 +1,114 @@
+# Setup script logs
+setup_*.log
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*~
+*.sublime-workspace
+*.sublime-project
+.project
+.classpath
+.settings/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.npm
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+env/
+.python-version
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Rust
+target/
+**/*.rs.bk
+Cargo.lock
+**/*.rlib
+**/*.rmeta
+**/*.d
+**/*.o
+**/*.so
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.logs
+*.iml
+.gradle/
+build/
+target/
+out/
+
+# Ruby
+*.gem
+*.rbc
+.bundle/
+vendor/bundle
+.rvmrc
+.ruby-version
+.ruby-gemset
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Local development
+*.local
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs and databases
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~ 
