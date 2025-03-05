@@ -1,5 +1,6 @@
 # Setup script logs
 setup_*.log
+state.log
 
 # macOS system files
 .DS_Store
