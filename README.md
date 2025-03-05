@@ -46,7 +46,7 @@ This script automates the installation of essential developer tools, programming
 
 ### System Tools
 - [Raycast](https://raycast.com/) - Spotlight on steroids
-- [Rectangle](https://rectangleapp.com/) - Window management that actually makes sense
+- [Rectangle](https://rectangleapp.com/) - Window management that actually makes sense (auto-starts on login)
 - [Docker](https://www.docker.com/) - Because "it works on my machine" is so last year
 
 ## 🗄️ Databases
@@ -97,6 +97,13 @@ This script automates the installation of essential developer tools, programming
 - Some installations might require your password
 - A log file will be created in the current directory
 - You might need to restart your terminal after the installation
+- The script modifies your `.zshrc` file to add the following configurations:
+  - Starship prompt configuration
+  - NVM (Node Version Manager) setup
+  - uv package manager PATH configuration
+  - fzf fuzzy finder setup
+  - Git completions
+  - All modifications are safe and check for existing configurations before adding
 
 > "Why do programmers prefer dark mode? Because light attracts bugs!" 🪲
 
