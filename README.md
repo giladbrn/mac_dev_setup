@@ -20,6 +20,7 @@ This script automates the installation of essential developer tools, programming
 - [Oh My Zsh](https://ohmyz.sh/) - Making your shell prettier than your browser history
 - [Starship](https://starship.rs/) - The prompt that makes other prompts feel inadequate
 - [fzf](https://github.com/junegunn/fzf) - Fuzzy finder that's so good, it's almost cheating
+- [Node.js](https://nodejs.org/) - JavaScript runtime that powers the web
 
 ### CLI Utilities
 - [ripgrep](https://github.com/BurntSushi/ripgrep) - grep, but it actually found your keys

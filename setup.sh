@@ -199,7 +199,7 @@ fi
 
 # Install core applications
 if print_step "Installing core developer tools"; then
-    for package in git gh starship fzf bat lazygit gitui vim; do
+    for package in git gh starship fzf bat lazygit gitui vim node; do
         install_brew_package "$package"
     done
 
